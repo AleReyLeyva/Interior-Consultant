@@ -5,6 +5,50 @@
     <meta name="author" content="AleReyLeyva" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Interior Consultant</title>
+    <link rel="stylesheet" href="./styles.css" />
   </head>
-  <body></body>
+  <body>
+    <header>
+      <h1 class="header__title">This interior</h1>
+      <nav>
+        <ul>
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="#">Collection</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="header__menu hidden">
+        <div class="header__menu-burguer"></div>
+        <div class="header__menu-cross hidden"></div>
+      </div>
+    </header>
+    <main>
+      <div class="main__left">
+        <h1 class="main__title">Modern Interior</h1>
+        <h3 class="main__description">
+          A full-Service residential & commercial interior design and staging
+          company offering professional organizing & eco-services.
+        </h3>
+        <h5 class="main__read-more">Read more</h5>
+      </div>
+      <div class="main__right">
+        <img class="main__photo1" src="./photo1.png" alt="photo1" />
+        <div class="main__card">
+          <img src="./photo2.png" alt="photo2" class="main__photo2" />
+          <div class="main__card__info">
+            <p class="main__card__name">Aliza Webber</p>
+            <p class="main__card__job">Interior designer</p>
+          </div>
+          <h2 class="main__card__description">
+            Designed in 2020 by Aliza Webber
+          </h2>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p>created by <span class="footer__username">AleReyLeyva</span></p>
+    </footer>
+    <script src="./script.js"></script>
+  </body>
 </html>
